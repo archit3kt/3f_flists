@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-LABEL org.opencontainers.image.authors="archit3kt <hitekchallenger@ŋmail.com>"
+LABEL org.opencontainers.image.authors="archit3kt <fabrice.verbrouck@gmail.com>"
 LABEL org.opencontainers.image.created="2022-04-21"
 LABEL org.opencontainers.image.source="https://github.com/archit3kt/3f_flists/tree/main/k3s_1.21.8"
 LABEL version="1.0"
