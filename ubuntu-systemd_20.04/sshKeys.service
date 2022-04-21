@@ -1,0 +1,10 @@
+[Unit]
+Description=Copy ENV SSH keys to authorized_keys
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/sbin/sshKeysCopy.sh
+
+[Install]
+WantedBy=default.target
